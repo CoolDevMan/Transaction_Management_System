@@ -54,12 +54,14 @@ npm i express morgan nodemon ejs body-parser dotenv axios csv-parser
 
 2. Build the design of this system.
   - /views
+  
     index.ejs
     /include
       _header.ejs (Import css, bootstrap, spinner.)
       _form.ejs (Enter token and date.)
       _spinner.ejs (loading animation)
       _footer.ejs (Import js.)
+      
   - /assets/css/style.css (fonts : Barlow, PT+Sans), (Resposive design)
 
 3. Get portfolio (/server/controller/controller.js)
