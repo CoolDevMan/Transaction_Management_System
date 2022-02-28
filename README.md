@@ -35,33 +35,18 @@ npm init
 npm i express morgan nodemon ejs body-parser dotenv axios csv-parser
 ```
   - Create Folders and config file.
-
-    /assets
-    
-      /css
-      
-      /csv
-      
-      /js
-      
-    /server
-    
-      /controller
-      
-      /routes
-      
-      /services
-      
-    /views
-    
-      /include
-      
-      index.ejs
-      
-    config.env
-    
-    server.js
-    
+    - /assets
+      /css /csv /js 
+    - /server 
+    - /controller 
+    - /routes 
+    - /services
+    - /views 
+        index.ejs
+        /include
+    - config.env
+    - server.js
+    - 
   - I used the EJS template engine with ExpressJS.
 
 2. Build the design of this system.
