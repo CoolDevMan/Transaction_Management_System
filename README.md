@@ -37,17 +37,29 @@ npm i express morgan nodemon ejs body-parser dotenv axios csv-parser
   - Create Folders and config file.
 
     /assets
+    
       /css
+      
       /csv
+      
       /js
+      
     /server
+    
       /controller
+      
       /routes
+      
       /services
+      
     /views
+    
       /include
+      
       index.ejs
+      
     config.env
+    
     server.js
     
   - I used the EJS template engine with ExpressJS.
@@ -56,10 +68,15 @@ npm i express morgan nodemon ejs body-parser dotenv axios csv-parser
   - /views
   
     index.ejs
+    
     /include
+    
       _header.ejs (Import css, bootstrap, spinner.)
+      
       _form.ejs (Enter token and date.)
+      
       _spinner.ejs (loading animation)
+      
       _footer.ejs (Import js.)
       
   - /assets/css/style.css (fonts : Barlow, PT+Sans), (Resposive design)
