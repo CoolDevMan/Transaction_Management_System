@@ -62,6 +62,7 @@ npm install
 ```
 
 - change /assets/csv/transactions.csv file.
+
   *The size of the specified csv file is too large to commit to the current repository.
   *Excuse me. Please test by replacing the csv file in the current repository.
 
